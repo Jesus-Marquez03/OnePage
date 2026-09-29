@@ -944,12 +944,12 @@ h3 {
   background: var(--card-bg-hover);
 }
 
-.reveal {
+.js .reveal {
   opacity: 0;
   transform: translateY(24px);
 }
 
-.reveal.visible {
+.js .reveal.visible {
   opacity: 1;
   transform: translateY(0);
   transition: opacity 650ms ease, transform 650ms ease;
@@ -969,7 +969,7 @@ h3 {
     animation-iteration-count: 1 !important;
   }
 
-  .reveal {
+  .js .reveal {
     opacity: 1;
     transform: none;
   }
