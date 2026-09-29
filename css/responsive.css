@@ -307,10 +307,6 @@
     justify-content: center;
   }
 
-  .profile-frame figcaption {
-    bottom: 20px;
-  }
-
   .project-preview {
     min-height: 160px;
     padding: 22px;
